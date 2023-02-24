@@ -11,7 +11,7 @@ import winston_config from './startups/winston_config.mjs'
 import jwt_config from './startups/jwtConfig.mjs'
 
 // initialised dotenv
-dotenv.config()
+if(process.env.ENV === "development") dotenv.config()
 
 // checking if the JWT env var is set before app startup
 jwt_config()
