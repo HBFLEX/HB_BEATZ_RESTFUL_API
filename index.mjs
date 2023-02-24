@@ -31,7 +31,7 @@ express_middleware(app, express)
 // endpoints
 endpoints(app)
 
-// setting up env variables
+// setting up port env variables
 const PORT = process.env.PORT || 5000
 
 // listening on a port
