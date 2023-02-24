@@ -1,4 +1,4 @@
-import genres from '../routes/Genres.mjs'
+import genres from '../routes/genres.mjs'
 import categories from '../routes/categories.mjs'
 import producers from '../routes/producers.mjs'
 import tracks from '../routes/tracks.mjs'
