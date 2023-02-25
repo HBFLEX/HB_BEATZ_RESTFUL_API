@@ -7,8 +7,8 @@
     "dev": "nodemon ./index.mjs",
     "start": "node index.mjs"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": ["REST", "API", "HB_BEATZ", "EXPRESS"],
+  "author": "HB_FL3X",
   "license": "ISC",
   "dependencies": {
     "bcrypt": "^5.1.0",
